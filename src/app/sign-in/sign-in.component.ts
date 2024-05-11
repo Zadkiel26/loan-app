@@ -1,3 +1,9 @@
+/**
+ * Title: sing-in.component.ts
+ * Author: Zadkiel Rodriguez Alvarado
+ * Date: 5/11/2024
+ * Description: Sing in component
+ */
 import { Component, OnInit } from '@angular/core';
 
 @Component({

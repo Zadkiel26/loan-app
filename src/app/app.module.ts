@@ -1,3 +1,9 @@
+/**
+ * Title: app.module.ts
+ * Author: Zadkiel Rodriguez Alvarado
+ * Date: 5/11/2024
+ * Description: App module
+ */
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 

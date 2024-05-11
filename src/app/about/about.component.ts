@@ -1,3 +1,9 @@
+/**
+ * Title: about.component.ts
+ * Author: Zadkiel Rodriguez Alvarado
+ * Date: 5/11/2024
+ * Description: About component
+ */
 import { Component, OnInit } from '@angular/core';
 
 @Component({

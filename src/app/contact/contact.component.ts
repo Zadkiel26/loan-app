@@ -1,3 +1,9 @@
+/**
+ * Title: contact.component.ts
+ * Author: Zadkiel Rodriguez Alvarado
+ * Date: 5/11/2024
+ * Description: Contact component
+ */
 import { Component, OnInit } from '@angular/core';
 
 @Component({
