@@ -13,6 +13,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { SignInGuard } from './sign-in.guard';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { LoanComponent } from './loan/loan.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,10 @@ const routes: Routes = [
       {
         path: 'contact',
         component: ContactComponent
+      },
+      {
+        path: 'loan',
+        component: LoanComponent
       }
     ],
     canActivate: [SignInGuard]

@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BaseLayoutComponent implements OnInit {
 
-  constructor() { }
+  title: string;
+
+  constructor() {
+    
+  }
 
   ngOnInit(): void {
   }
