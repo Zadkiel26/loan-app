@@ -40,7 +40,7 @@ export class SignInComponent implements OnInit {
       this.cookieService.set('session_user', customerId.toString(), 1);
       this.router.navigate(['/']);
     } else {
-      this.errorMessage = 'The student ID you entered is invalid, please try again.';
+      this.errorMessage = 'The customer ID you entered is invalid, please try again.';
     }
   }
 
