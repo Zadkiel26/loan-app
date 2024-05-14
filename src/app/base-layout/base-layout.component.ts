@@ -5,6 +5,8 @@
  * Description: Base layout component
  */
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-base-layout',
@@ -13,13 +15,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BaseLayoutComponent implements OnInit {
 
-  title: string;
-
-  constructor() {
+  constructor(private router: Router, private cookieService: CookieService) {
 
   }
 
   ngOnInit(): void {
+  }
+
+  logOut() {
+    this.cookieService.deleteAll();
+    this.router.navigate(['/session/sign-in']);
   }
 
 }

@@ -38,7 +38,7 @@ import { MatIconModule } from '@angular/material/icon';
     AboutComponent,
     ContactComponent,
     SignInComponent,
-    LoanComponent
+    LoanComponent,
   ],
   imports: [
     BrowserModule,
